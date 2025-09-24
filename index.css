@@ -108,8 +108,9 @@ body {
     color: black !important;
     border: none;
 }
-.contact-nav .nav-link:after{
-    display:none;
+
+.contact-nav .nav-link:after {
+    display: none;
 }
 
 .contact-nav:hover {
@@ -243,7 +244,7 @@ body {
     min-height: 607px;
     display: flex;
     flex-direction: column;
-    position: relative; 
+    position: relative;
 }
 
 /* .overall-fluid #about {
@@ -1048,7 +1049,7 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 40px;
+        gap: 25px;
     }
 
     .nav-items {
@@ -1077,6 +1078,10 @@ body {
 
     .contact-box {
         padding: 10px 20px;
+    }
+
+    .contact-nav {
+        margin-top: 25px;
     }
 
     /* ******************************  HOME-BOX  *********************************** */
@@ -1264,6 +1269,10 @@ body {
         padding: 10px 20px;
     }
 
+    .contact-nav {
+        margin-top: 35px;
+    }
+
     /* ***********************************  HOME-PAGE  ******************************** */
     .overall-container .home-box {
         flex-direction: column;
@@ -1372,7 +1381,7 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 40px;
+        gap: 25px;
     }
 
     .nav-items {
@@ -1392,6 +1401,7 @@ body {
         justify-content: center;
         flex-direction: row;
         align-items: center;
+        display: block;
     }
 
     .subnav .angartag {
@@ -1401,6 +1411,10 @@ body {
 
     .contact-box {
         padding: 10px 20px;
+    }
+
+    .contact-nav {
+        margin-top: 25px;
     }
 
     /* *************************  HOME-PAGE  *********************** */
@@ -1510,6 +1524,7 @@ body {
         justify-content: center;
         flex-direction: row;
         align-items: center;
+        display: block;
     }
 
     .subnav .angartag {
@@ -1980,6 +1995,7 @@ body {
         justify-content: center;
         flex-direction: row;
         align-items: center;
+        display: block;
     }
 
     .subnav .angartag {
